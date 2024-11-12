@@ -1,10 +1,12 @@
 body {
     display: flex;
+    justify-content: center;
 }
 .container {
     width: 100%;
     height: 100%;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
 }
 .page {
     width: 100%;
@@ -14,6 +16,7 @@ body {
     font-family: 'Poppins semibold';
     font-size: 56px;
     line-height: 72px;
+
 }
 .subtitle__text {
     font-family: 'Poppins regular';
@@ -30,23 +33,23 @@ body {
     flex-direction: column; 
     align-content: center;
     justify-content: center;
-    padding: 60px; 
+    padding: 80px 60px 60px 70px; 
     box-sizing: border-box;
     gap: 32px;
 }
-.stat {
+.stat__container {
     display: flex;
     flex-direction: row;
-    width: 70%;
+    width: 75%;
 }
-.stat__element {
+.stat {
     width: 30%;
     display: flex;
     flex-direction: column;
     margin: 12px 12px 12px 0px;
     gap: 8px;
 }
-.delimiter {
+.stat__delimiter {
     height: 3px;
     width: 46px;
     background: #333333;
@@ -57,7 +60,6 @@ body {
 }
 .stat__text {
     font-size: 14px;
-    line-height: auto;
     font-family: 'Poppins regular';
     line-height: 20px;
 }
@@ -71,4 +73,72 @@ body {
     border-radius: 40px;
     border: 0;
     background-color: #437223;
+}
+.intro__button:hover {
+    background-color:#333333;
+    transition: 0.7s;
+}
+.intro__button:not(:hover) {
+    background-color:#437223;
+    transition: 0.7s;
+}
+.color_text {
+    color: #437223;
+    text-transform: uppercase;
+}
+.right-side {
+    width: 50%;
+    height: 100%;
+}
+.right-container {
+    display: flex;
+    flex-direction: row;
+    transform: translate(-11%, 9%);
+}
+.flowers {
+    width: 700px;
+    height: auto;
+}
+.logo {
+    width: 100%;
+    transform: translate(-72%, -5%);
+}
+.logo__circle {
+    width: 138px;
+    height: 138px;
+}
+
+.cards-container {
+    height: 100%;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 16px;
+    border-style: solid;
+    width: 421px;
+    height: 112px;
+    border-width: 2px;
+    border-color: #333333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px 3px 10px; 
+    gap: 24px;
+}
+
+.card > img {
+    height: 80px;
+    width: 80px;
+}
+
+.card__text {
+    font-family: 'Poppins regular';
+    font-size: 16px;
+    line-height: 25px;
+    width: 250px;
 }

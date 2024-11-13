@@ -101,6 +101,8 @@ body {
 }
 .logo {
     width: 100%;
+}
+.logo__position {
     transform: translate(-72%, -5%);
 }
 .logo__image {

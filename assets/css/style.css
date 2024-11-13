@@ -12,13 +12,13 @@ body {
     width: 100%;
     height: 100%;
 }
-.title__text {
+.intro__title {
     font-family: 'Poppins semibold';
     font-size: 56px;
     line-height: 72px;
 
 }
-.subtitle__text {
+.intro__subtitle {
     font-family: 'Poppins regular';
     font-size: 24px;
     line-height: 36px;
@@ -37,7 +37,7 @@ body {
     box-sizing: border-box;
     gap: 32px;
 }
-.stat__container {
+.stat-container {
     display: flex;
     flex-direction: row;
     width: 75%;
@@ -90,7 +90,7 @@ body {
     width: 50%;
     height: 100%;
 }
-.right-container {
+.right-side-container {
     display: flex;
     flex-direction: row;
     transform: translate(-11%, 9%);
@@ -103,7 +103,7 @@ body {
     width: 100%;
     transform: translate(-72%, -5%);
 }
-.logo__circle {
+.logo__image {
     width: 138px;
     height: 138px;
 }
